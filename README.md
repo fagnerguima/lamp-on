@@ -95,6 +95,8 @@ O mesmo executável aceita comandos, usando as preferências salvas pelo app:
 - `Sources/LampOn` — app SwiftUI e modo linha de comando
 - `Tests/LampOnCoreTests` — testes (Swift Testing)
 - `scripts/build-app.sh` — monta `build/LAMP-ON.app` (release, arm64, assinatura ad-hoc)
+- `Resources/AppIcon-source.png` — arte do ícone (lampião com chapéu de cangaceiro em estilo flat, gerada no OpenArt);
+  `swift scripts/make-icon.swift Resources/AppIcon-source.png Resources/AppIcon.icns` refaz o `.icns`
 
 ## Limitações
 
