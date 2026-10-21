@@ -103,3 +103,16 @@ O mesmo executável aceita comandos, usando as preferências salvas pelo app:
 - Só portas ≥ 1024 (portas 80/443 exigiriam um helper privilegiado).
 - Sem SSL, virtual hosts ou troca de cache do PHP pela interface ainda.
 - Assinatura ad-hoc: em outro Mac, o Gatekeeper vai pedir confirmação na primeira abertura.
+
+## Licença
+
+O LAMP-ON é distribuído sob a [PolyForm Noncommercial 1.0.0](LICENSE.md): você pode usar, estudar,
+modificar e redistribuir o código para fins **não comerciais** (uso pessoal, estudo, pesquisa,
+hobby, ensino e organizações sem fins lucrativos). Uso comercial não é permitido por essa licença;
+para isso, fale com o autor.
+
+Por restringir uso comercial, esta é uma licença *source-available* (código aberto para leitura e
+uso não comercial), e não uma licença open source aprovada pela OSI.
+
+O LAMP-ON não inclui Apache, Nginx, PHP, MySQL, MariaDB nem phpMyAdmin: eles são instalados pelo
+Homebrew ou baixados dos projetos oficiais e seguem as próprias licenças.
